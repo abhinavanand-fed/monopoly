@@ -24,22 +24,7 @@ body {
 .board-square {
   width: 50px;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
-
-.board-square:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.board-square-text {
-  font-size: 24px;
-  color: green;
-}
-
-.dice-button {
+@@ -36,15 +43,19 @@
   font-size: 16px;
   padding: 10px;
   margin-right: 10px;
@@ -52,6 +37,7 @@ body {
   font-size: 16px;
   padding: 10px;
 }
+
 .dice-button,
 .next-turn-button {
   display: inline-block;
@@ -59,11 +45,6 @@ body {
   border: none;
   color: white;
   text-align: center;
-  font-size: 16px;
-  padding: 10px;
-  margin: 10px;
-  cursor: pointer;
-  border-radius: 5px;
   width: 100px;
 }
 
